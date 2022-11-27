@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+
+        >
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_btn"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text=" 회원 정보 수정"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/profile_img"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#C1C1C1"
+        android:src="@drawable/profile_img"
+        />
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:id="@+id/nameText"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/user_edit_save_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#1ABC9C"
+        android:textColor="#FFFFFF"
+        android:text="저장"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>

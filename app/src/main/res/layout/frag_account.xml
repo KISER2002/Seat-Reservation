@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#1ABC9C">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text=" 마이페이지"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/profile_img"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#C1C1C1"
+        android:src="@drawable/profile_img"
+        />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_marginTop="2dp"
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이디"
+        android:textSize="17dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/user_edit_btn"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:text="회원 정보 수정"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="#DDDDDD"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/user_profile_btn"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:text="내 프로필"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="#DDDDDD"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/user_seat_edit_btn"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:text="좌석 배치 수정"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="#DDDDDD"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/user_setting_btn"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:text="설정"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="#DDDDDD"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/logout_btn"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:text="로그아웃"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="#DDDDDD"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

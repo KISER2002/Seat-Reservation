@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/seat"
+        android:icon="@drawable/home"
+        android:title="홈"
+        android:enabled="true"
+        android:checked="true"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/board"
+        app:showAsAction="always"
+        android:icon="@drawable/board"
+        android:title="게시판"
+        android:enabled="true"
+        android:checked="true"
+        />
+
+    <!--    <item-->
+    <!--        android:id="@+id/check"-->
+    <!--        app:showAsAction="always"-->
+    <!--        android:checked="true"-->
+    <!--        android:icon="@drawable/check"-->
+    <!--        android:title="CheckList"-->
+    <!--        android:enabled="true"-->
+    <!--        />-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/alarm"-->
+    <!--        app:showAsAction="always"-->
+    <!--        android:checked="true"-->
+    <!--        android:icon="@drawable/alarm"-->
+    <!--        android:title="Alarm"-->
+    <!--       android:enabled="true"-->
+    <!--        />-->
+    <item
+        android:id="@+id/chat"
+        app:showAsAction="always"
+        android:checked="true"
+        android:icon="@drawable/chat"
+        android:title="채팅"
+        android:enabled="true"
+        />
+
+    <item
+        android:id="@+id/account"
+        app:showAsAction="always"
+        android:checked="true"
+        android:icon="@drawable/account"
+        android:title="마이페이지"
+        android:enabled="true"
+        />
+
+</menu>

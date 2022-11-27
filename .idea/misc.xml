@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/drawable/border.xml" value="0.3764102564102564" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/drawable/button_background.xml" value="0.3764102564102564" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/drawable/default_seat.xml" value="0.3764102564102564" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/drawable/disable_seat.xml" value="0.3764102564102564" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/drawable/edit_text_background.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3764102564102564" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/drawable/in_use_seat.xml" value="0.3764102564102564" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/drawable/item.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/drawable/seat_border.xml" value="0.33" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/drawable/seat_border_my.xml" value="0.3764102564102564" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/drawable/seat_border_use.xml" value="0.3764102564102564" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/activity_chat.xml" value="0.28351449275362317" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/activity_chat_test.xml" value="0.23369565217391305" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/activity_chat_user_list.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/activity_enter.xml" value="0.28351449275362317" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/activity_join.xml" value="0.25" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/activity_my_profile.xml" value="0.35643115942028986" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/activity_profile.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/activity_user_edit.xml" value="0.25" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/activity_user_forget.xml" value="0.36141304347826086" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/add_item.xml" value="0.33" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/add_seat_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/chat_drawer.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/chat_image.xml" value="0.33" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/chat_image_other.xml" value="0.33" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/chat_item.xml" value="0.23369565217391305" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/chat_item_other.xml" value="0.23369565217391305" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/chat_menu_user_item.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/chat_room_item.xml" value="0.25" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/default_seat_item.xml" value="0.25" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/disable_seat_item.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_account.xml" value="0.2390625" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_board.xml" value="0.25" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_board_comment.xml" value="0.25" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_board_comment2.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_board_comment_delete_dialog.xml" value="0.2966485507246377" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_board_comment_edit.xml" value="0.25" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_board_comment_item.xml" value="0.33" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_board_deleted_item.xml" value="0.3473731884057971" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_board_item.xml" value="0.33" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_board_like_item.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_board_like_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_board_reply.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_board_reply_item.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_board_view.xml" value="0.25" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_board_write.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_chat.xml" value="0.2390625" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_seat.xml" value="0.33" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_seat_edit.xml" value="0.33" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_seat_extension.xml" value="0.33" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_seat_item.xml" value="0.33" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_seat_list.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_seat_list_item.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_seat_my_seat.xml" value="0.33" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_seat_my_seat_null.xml" value="0.286231884057971" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_seat_office.xml" value="0.1703125" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_seat_status_dialog.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_seat_status_office2.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/frag_seat_write.xml" value="0.33" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/in_use_seat_item.xml" value="0.33" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/item_preview.xml" value="0.22" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/make_chat_room_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/seat_layout_size.xml" value="0.3365036231884058" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/test.xml" value="0.3138586956521739" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/layout/user_item.xml" value="0.3374094202898551" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/menu/bottom_menu.xml" value="0.2390625" />
+        <entry key="..\:/Users/firek/AndroidStudioProjects/Seatreservation/app/src/main/res/menu/popup.xml" value="0.36614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

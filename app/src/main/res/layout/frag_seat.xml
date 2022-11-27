@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#1ABC9C">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text=" 좌석"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:id="@+id/profile_img"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        app:civ_border_width="1dp"
+        android:src="@drawable/main_thumbnail"
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seat Reservation"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:id="@+id/seat_status_btn"
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:text="좌석 현황"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:id="@+id/seat_reservation_btn"
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:text="좌석 예약"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:id="@+id/my_seat_btn"
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:text="내 좌석"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

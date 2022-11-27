@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    //공백을 위한 margin 텍스트뷰
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginBottom="135dp"
+        />
+
+
+
+    //상단 LOGIN 텍스트
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:text="로그인"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="30dp"
+        />
+
+    //아이디
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <EditText
+            android:id="@+id/login_id"
+            android:textSize="16dp"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="아이디"/>
+    </LinearLayout>
+
+    //비밀번호
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/login_password"
+            android:inputType="textPassword"
+            android:textSize="16dp"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="비밀번호"/>
+    </LinearLayout>
+
+    //로그인 유지
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="93dp"
+            android:id="@+id/login_maintain_btn"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="로그인 상태 유지"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        />
+    </LinearLayout>
+
+
+    //로그인 버튼
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_background"
+        android:text="로그인"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/login_btn"
+        android:layout_marginBottom="8dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="96dp"
+        android:background="#E0E0E0"
+        android:text="아이디 / 비밀번호 찾기"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:id="@+id/user_forget_btn"
+        />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="74dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:background="#7F7F7F"
+            android:text="회원가입"
+            android:textColor="#FFFFFF"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:id="@+id/join_btn"
+            />
+
+</LinearLayout>
+
+</LinearLayout>
